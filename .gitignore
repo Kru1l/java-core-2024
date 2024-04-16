@@ -29,4 +29,5 @@ bin/
 .DS_Store
 
 .idea
+libs
 java-core-2024.iml
