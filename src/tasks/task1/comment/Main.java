@@ -10,12 +10,13 @@ public class Main {
         Comment comment4 = new Comment(952, 41, "Four", "@umthyg", "L,nibdvfregr");
         Comment comment5 = new Comment(98, 10, "Five", "@gdvr", "Xcvgbhmnjmk");
 
-        Comment[] comments = new Comment[5];
-        comments[0] = comment1;
-        comments[1] = comment2;
-        comments[2] = comment3;
-        comments[3] = comment4;
-        comments[4] = comment5;
+        Comment[] comments = new Comment[]{
+                new Comment(51, 4, "One", "@fvvd", "Khbjckldvkdf"),
+                new Comment(85, 95, "Two", "@ijhg", "Bgvbvkbhnr"),
+                new Comment(32, 7, "Three", "@erfg", "OIMunbbcv"),
+                new Comment(952, 41, "Four", "@umthyg", "L,nibdvfregr"),
+                new Comment(98, 10, "Five", "@gdvr", "Xcvgbhmnjmk")
+        };
 
 //        for (Comment comment : comments) {
 //            System.out.println(comment);
